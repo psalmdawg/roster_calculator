@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style.css">
+  <script
+  src="https://code.jquery.com/jquery-3.1.1.js"
+  integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+  crossorigin="anonymous"></script>
+
+  <title>Roster Calculator</title>
+</head>
+<body>
+  <h1>Roster Calculator</h1>
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-61830643-2', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+
+
+
+  <!-- <div class="outer-calender-ctr"> -->
+    <div class="inner-calender-ctr">
+      <div class="month"></div>
+      <div class="days">
+        <div class="day">Sun</div>
+        <div class="day">Mon</div><div class="day">Tue</div><div class="day">Wed</div><div class="day">Thu</div><div class="day">Fri</div><div class="day">Sat</div></div>
+      <div class="calender-ctr">
+        <!-- <div class="block-ctr"></div> -->
+        <!-- <div class="calender_message"></div> -->
+      </div>
+    </div>
+  <!-- </div> -->
+
+
+  <div class="navigationButtons">
+    <button class = "py calender_nav_button" value="py"><<</button>
+    <button class = 'pm calender_nav_button' value="pm"><</button>
+    <button class = "nm calender_nav_button" value="nm">></button>
+    <button class = "ny calender_nav_button" value="ny">>></button>
+  </div>
+
+
+
+<div class="roster-entry-ctr">
+  <!-- <form action=""> -->
+    <div class="cal_form selector">
+
+    <label for="days_on">Days on:</label>
+      <!-- <input class="days_on_entry" type="number" placeholder='Number of Days on'> -->
+
+      <select required name="days_on" class="days_on_entry styled-select" id="" placeholder="Days On">
+        <option value=""></option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+        <option value="11">11</option>s
+        <option value="12">12</option>
+        <option value="13">13</option>
+        <option value="14">14</option>
+        <option value="15">15</option>
+        <option value="16">16</option>
+        <option value="17">17</option>
+        <option value="18">18</option>
+      </select>
+    </div>
+    <!-- </div> -->
+
+    <div class="cal_form selector">
+      <label for="days_on">Days off:</label>
+      <!-- <input class="days_off_entry" type="number" placeholder = "Number Days off">
+      <div class="subtext">(The first day of your swing)</div> -->
+      <select name="days_on" class="days_off_entry styled-select" id="" placeholder = "Number Days off">
+        <option value=""></option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+        <option value="11">11</option>
+        <option value="12">12</option>
+        <option value="13">13</option>
+        <option value="14">14</option>
+        <option value="15">15</option>
+        <option value="16">16</option>
+        <option value="17">17</option>
+        <option value="18">18</option>
+      </select>
+    </div>
+    <div class="second_rotation_title selector2">
+        <p>Second rotation</p>
+    </div>
+    <div class="cal_form selector2">
+
+    <label for="">Days on:</label>
+
+      <select required name="days_off selector2" class="days_on_entry2 styled-select" id="" placeholder="Days On">
+        <option value=""></option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+        <option value="11">11</option>
+        <option value="12">12</option>
+        <option value="13">13</option>
+        <option value="14">14</option>
+        <option value="15">15</option>
+        <option value="16">16</option>
+        <option value="17">17</option>
+        <option value="18">18</option>
+      </select>
+    </div>
+    <div class="cal_form selector2">
+      <label for="">Days off:</label>
+
+      <select name="days_off selector2" class="days_off_entry2 styled-select" id="" placeholder = "Number Days off">
+        <option value=""></option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+        <option value="11">11</option>
+        <option value="12">12</option>
+        <option value="13">13</option>
+        <option value="14">14</option>
+        <option value="15">15</option>
+        <option value="16">16</option>
+        <option value="17">17</option>
+        <option value="18">18</option>
+      </select>
+    </div>
+
+    <div class="cal_form selector">
+      <label for="">Start Date</label>
+      <input class="start_date_entry" type="date" placeholder="Start Date">
+    </div>
+    <button class="roster_entry_btn selector">OK</button>
+    <!-- <div class="cal_form selector">
+
+    </div> -->
+
+
+</div>
+<div class="reset_ctr">
+  <div class="rotation_selector_container">
+    <button class="single_rotation_button">Single Rotation? i.e.(8/6 or 9/5)?</button>
+    <p>or...</p>
+    <button class="double_rotation_button" >Multiple Rotation? i.e ( 5/2, 4/3)?</button>
+  </div>
+
+</div>
+<div class="reset_btn"><img class = "reset-img"src="reset.png" alt=""> <span class="roster_output"></span>
+ <div class="block-guide green">OFF</div><div class="block-guide red">ON</div></div>
+
+
+
+
+</body>
+<script src="jquery.js"></script>
+<!-- <script src="app.js"></script> -->
+<script src="hammer.js"></script>
+<script src="combined.js"></script>
+<!-- <script src="dates.js"></script> -->
+</html>

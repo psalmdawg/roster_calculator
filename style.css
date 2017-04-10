@@ -1,0 +1,293 @@
+
+body {
+  width: 80%;
+  margin: 0 auto;
+  font-family: verdana;
+  /*background: #2ecc40;*/
+}
+button {
+  margin-bottom: 20px;
+  margin-right: 2px;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 30px;
+  border-radius: 5px;
+  background: #0074d9;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+}
+.reset_btn{
+  margin-top: 10px;
+  display:none;
+}
+.reset_btn img{
+  width: 35px;
+}
+.reset_btn span{
+  vertical-align: super;
+}
+.reset_ctr{
+  text-align: center;
+  margin-top: 100px;
+}
+
+.styled-select {
+   height: 35px;
+   /*overflow: hidden;*/
+   width: 50px;
+   color:white;
+   font-size: 25px;
+   height: 34px;
+   width: 75px;
+   background-color:#0074d9;
+
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   border-radius: 5px;
+ }
+
+styled-select select{
+   background: transparent;
+   border: none;
+   font-size: 14px;
+   height: 29px;
+   padding: 5px; /* If you add too much padding here, the options won't show in IE */
+   /*width: 268px;*/
+}
+
+
+.reset_ctr button{
+  height: 40px;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 20px;
+  line-height: 30px;
+}
+.roster_entry_btn{
+  cursor: pointer;
+  background: #0074d9;
+  color: white;
+  height: 50px;
+  vertical-align: middle;
+  border-radius: 5px;
+  border: none;
+  padding: 10px;
+  margin: 0 auto;
+  margin-top: 40px;
+  /*text-align:center;*/
+  /*display:none;*/
+
+}
+
+.roster-entry-ctr{
+  /*height: 40vh;*/
+  /*overflow: auto;*/
+
+}
+
+.rotation_selector_container{
+
+}
+
+.rotation_selector_container button{
+  margin-top: 20px;
+}
+
+h1{
+  font-weight: bolder;
+  /*font-stretch: expanded;*/
+  font-size: 30px;
+  text-align:center;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.month{
+  margin-left:9px;
+  padding-top: 5px;
+  font-size: 24px;
+  font-weight: bolder;
+}
+.month span{
+  float: right;
+  margin-right: 8%;
+}
+.linen {
+  background: linen;
+}
+.block{
+  width: 13.5%;
+  height: 55px;
+  line-height: 55px;
+  border: 1px solid #c6c3b5;
+  display: inline-block;
+  text-align: center;
+  margin: 1px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 5px;
+  /*border: 1px solid black;*/
+  vertical-align:bottom
+}
+.block-guide{
+  width: 9%;
+  height: 32px;
+  line-height: 32px;
+  border: 1px solid #c6c3b5;
+  display: inline-block;
+  text-align: center;
+  margin-left: 5px;
+  font-size: 10px;
+  font-weight: bold;
+  border-radius: 5px;
+  /*border: 1px solid black;*/
+  vertical-align:top;
+  display:none;
+  float: right;
+}
+
+.red{
+  background: red;
+}
+.green{
+  background: #c0ff3e;
+}
+.date{
+  text-align: center;
+  width:40%;
+  margin-top: 20px;
+  display: inline-block;
+  /*margin-bottom: 35px;*/
+}
+.clock{
+  /*text-align:center;*/
+  margin: 0 auto;
+  margin-bottom: 20px;
+  display: inline-block;
+  /*float: right;*/
+}
+
+.day{
+  width: 13.9%;
+  height: 50px;
+  line-height: 50px;
+  /*border: 1px solid grey;*/
+  display: inline-block;
+  text-align: center;
+  margin-left:-1px;
+}
+
+.days{
+  margin-left: 2px;
+}
+
+.roster_output{
+  /*display: inline-block;*/
+  margin-left: 15px;
+  font-weight: bolder;
+  /*text-align: center;*/
+}
+
+.outer-calender-ctr{
+  /*border: black solid 1px;*/
+  max-width:95%;
+  /*background: #2ecc40;*/
+  padding-top: 5px;
+  /*padding*/
+  padding-bottom: 5px;
+  margin: 0 auto;
+}
+.selector, .selector2{
+  display:none;
+}
+.navigationButtons{
+  display:none;
+  margin-top: 37px;
+
+  text-align: center
+}
+.inner-calender-ctr{
+  display:none;
+  width: 100%;
+  height: 399px;
+  margin: 0 auto;
+  /*margin-top:100px;*/
+  background: white;
+  padding-left: 1%;
+  padding: 10px;
+  /*background: #2ecc40;*/
+
+  /*clear: both;*/
+  /*text-align: center;*/
+}
+label{
+  /*margin-left: 20px;*/
+  margin-right: 3px;
+}
+
+
+
+.roster-entry-ctr{
+
+  text-align: center;
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 30px;
+
+}
+
+form {
+  height: 100%;
+}
+
+.cal_form{
+  margin-top: 25px;
+  height: 30px;
+  line-height: 30px;
+  min-width: 100%;
+}
+.second_rotation_title{
+  /*margin-bottom: 10px;*/
+  margin-top: 25px;
+}
+.cal_form p{
+  margin-bottom: 10px;
+}
+
+.cal_form input{
+  /*float: right;*/
+  height: 30px;
+  width: 200px;
+  margin-right: 5%;
+  margin-left: 3%;
+  font-size: 18px;
+  text-align: center;
+  /*background: #2ecc40;*/
+
+}
+
+
+@media (min-width: 700px) {
+  .day{
+    max-width: 14.5%;
+  }
+  body{
+    width: 60%;
+    margin: 0 auto;
+    /*background: red;*/
+  }
+
+  .outer-calender-ctr{
+    max-width:70%;
+  }
+
+  .inner-calender-ctr{
+    /*text-align: center;*/
+    max-width: 96%;
+    margin: 0 auto;
+    padding-left: 3%;
+  }
+}
